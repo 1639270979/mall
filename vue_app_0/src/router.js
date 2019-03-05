@@ -10,6 +10,7 @@ import Family from './views/family.vue'
 import myAccount from './views/myAccount/myAccount.vue'
 import Drink_tea from './views/tea/drink_tea.vue'
 import Detail from './views/details/detail.vue'
+import Personal from './views/myAccount/personal.vue'
 
 Vue.use(Router)
 
@@ -25,7 +26,7 @@ export default new Router({
     {path:'/login',component:Login},
     {path:'/register',component:Register},
     {path:'/search',component:Search},
-    {path:"/myAccount",component:myAccount}
-    
+    {path:"/myAccount",component:myAccount},
+    {path:'/personal',component:Personal}
   ]
 })

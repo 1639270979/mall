@@ -9,7 +9,7 @@
         </mt-header>
         <!-- 头像  -->
         <div class="content-wrap">
-            <router-link class="avatar" to="">
+            <router-link class="avatar" to="/personal">
                 <div>
                     <div>
                         <a href="javascript:;">

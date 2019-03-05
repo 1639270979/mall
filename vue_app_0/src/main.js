@@ -11,6 +11,9 @@ import './assets/icon/iconfont.css'
 import './lib/mui/css/mui.css'
 import './lib/mui/css/icons-extra.css'
 import {Header,Swipe,SwipeItem,Button,Toast} from "mint-ui"
+import { DatetimePicker } from 'mint-ui';
+
+Vue.component(DatetimePicker.name, DatetimePicker);
 //4:注册Header组件
 Vue.component(Header.name,Header);
 Vue.component(Swipe.name,Swipe);
